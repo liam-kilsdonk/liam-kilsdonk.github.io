@@ -98,7 +98,8 @@ nav ul {
 .intro,
 .center,
 .outro,
-.slot {
+.slot,
+.first-pro {
   display: flex;
   flex-wrap: nowrap;
   width: 100%;
@@ -205,6 +206,18 @@ form {
 .form-txt {
   width: 45%;
   height: auto;
+}
+
+.post-pro {
+  display: flex;
+  justify-content: space-between;
+  height: 400px;
+  width: 100%;
+}
+
+.post-pro-info {
+  height: 100px;
+  width: 100%;
 }
 
 @media (max-width: 700px) {
