@@ -215,9 +215,23 @@ form {
   width: 100%;
 }
 
-.post-pro-info {
-  height: 100px;
+.first-pro-2 {
+  margin-top: 20px;
+}
+
+table {
   width: 100%;
+}
+
+table,
+tr,
+th,
+td {
+  margin-top: 20px;
+  border: 1px solid white;
+  background-color: black;
+  color: white;
+  text-align: center;
 }
 
 @media (max-width: 700px) {
@@ -230,4 +244,11 @@ form {
     width: 100%;
     margin-bottom: 1em;
   }
+
+  .intro {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  
 }
