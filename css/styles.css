@@ -250,5 +250,8 @@ td {
     flex-wrap: wrap;
   }
 
-  
+  video {
+    height: 50%;
+    width: auto;
+  }
 }
