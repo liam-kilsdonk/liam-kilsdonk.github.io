@@ -287,6 +287,14 @@ td {
     height: auto;
     width: 100%;
   }
+  
+  .logo {
+    width: 30%;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+  }
 }
 
 @media (max-width: 900px) {
