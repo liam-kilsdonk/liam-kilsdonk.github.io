@@ -155,7 +155,7 @@ form {
   background-color: grey;
   padding: 10px;
   border: 1px solid black;
-  width: 50%;
+  width: 70%;
 }
 
 .form-set {
@@ -234,6 +234,13 @@ td {
   text-align: center;
 }
 
+.forum-exp {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
 @media (max-width: 700px) {
   .center {
     display: flex;
@@ -269,5 +276,39 @@ td {
     height: auto;
     width: 65%;
     padding: 20px;
+  }
+
+  .img-liam {
+    height: auto;
+    width: 100%;
+  }
+
+  .profile {
+    height: auto;
+    width: 100%;
+  }
+}
+
+@media (max-width: 900px) {
+  .first-pro,
+  .first-pro-2 {
+    height: auto;
+    width: 100%;
+    display: flex;
+  }
+
+  .post-pro {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 900px) {
+  .intro-con,
+  .forum-con {
+    display: flex;
+    flex-wrap: wrap;
   }
 }
